@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8082
+spring:
+  kafka:
+    bootstrap-servers: test-kafka1.gs.9188.com:9092
